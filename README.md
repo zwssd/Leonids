@@ -1,7 +1,6 @@
 ## Changes in this fork:
-- Spelling fixes
-- Added static method to set FPS
-- Fixed some angle math
+- en-Increasing the construction method of int[]
+- zh-增加图片数组构造方法，实现今日头条-微头条点赞效果
 
 Leonids
 ==========================
@@ -62,7 +61,7 @@ Note that the ParticleSystem checks the position of the anchor view when oneShot
 
 When you create the particle system, you tell how many particles will it use as a maximum, the resourceId of the drawable you want to use for the particles and for how long the particles will live.
 
-Then you configure the particle system. In this case we specify that the particles will have a speed between 0.2 and 0.5 pixels per milisecond (support for dips will be included in the future). Since we did not provide an angle range, it will be considered as "any angle".
+Then you configure the particle system. In this case we specify that the particles will have a speed between 0.2 and 0.5 pixels per milisecond (support for dips will be included in the future). Support set angle, default "any angle".```setSpeedModuleAndAngleRange(float speedMin, float speedMax, int minAngle, int maxAngle)```
 
 Finally, we call oneShot, passing the view from which the particles will be launched and saying how many particles we want to be shot.
 
