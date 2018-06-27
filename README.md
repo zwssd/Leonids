@@ -66,7 +66,7 @@ Then you configure the particle system. In this case we specify that the particl
 Finally, we call oneShot, passing the view from which the particles will be launched and saying how many particles we want to be shot.
 
 ![](https://raw.githubusercontent.com/plattysoft/Leonids/master/images/Leonids_one_shot.gif)
-[](https://github.com/mzyq/Leonids/blob/master/images/like_jet.gif)
+![](https://github.com/mzyq/Leonids/blob/master/images/like_jet.gif)
 ## Emitters
 
 You can configure emitters, which have a constant ratio of particles being emited per second.
