@@ -2,24 +2,24 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 
-def versionName = '1.3.3'
+def versionName = '2.0.0'
 
 android {
-    compileSdkVersion 25
-    buildToolsVersion "25.0.3"
+    compileSdkVersion 28
+    buildToolsVersion "28.0.2"
 
     defaultConfig {
         minSdkVersion 11
-        targetSdkVersion 25
+        targetSdkVersion 28
     }
 
     buildTypes {
     }
 }
 
-def siteUrl = 'http://plattysoft.github.io/Leonids/'
-def gitUrl = 'https://github.com/plattysoft/Leonids.git'
-group = "com.plattysoft.leonids"
+def siteUrl = 'http://zwssd.github.io/Leonids/'
+def gitUrl = 'https://github.com/zwssd/Leonids.git'
+group = "com.github.zwssd"
 version = versionName
 
 

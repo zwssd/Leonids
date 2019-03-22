@@ -21,7 +21,7 @@ Leonids is available in jcenter as well as a jar file to fit both Android Studio
 Add the following dependency to the build.gradle of your project
 ```
 dependencies {
-    compile 'com.plattysoft.leonids:LeonidsLib:1.3.2'
+    implementation 'com.github.zwssd:LeonidsLib:2.0.0'
 }
 ```
 Note: If you get an error, you may need to update the jcenter repository to:
